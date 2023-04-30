@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+ #centre{
+  text-align: centre;
+ }
+ img{
+  width: 30;
+  height: 30%;
+  position: absolute;
+  top: 0px;
+right:0px;}
+html { scroll-behavior: smooth; }
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style header section */
+  header {
+    background-color: #0078D7;
+    padding: 20px;
+    color: #FFF;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: #FFF;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Style main sections */
+  section {
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style contact section */
+  section#contact {
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Add hover effect to nav links */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add responsive design */
+  @media only screen and (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header h2 {
+      font-size: 18px;
+    }
+  
+    section {
+      padding: 20px;
+  }
+ }
